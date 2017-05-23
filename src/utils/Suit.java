@@ -17,7 +17,8 @@ import org.testng.annotations.AfterSuite;
 
 public class Suit {
 	public Logger log =Logger.getLogger(Suit.class);
-	public AndroidDriver<AndroidElement> driver = null;
+	//public AndroidDriver<AndroidElement> driver = null;
+	public AndroidDriverBase driver=null;
 	public Action ac=null;
 	public HomePage hpage=null;
   @BeforeSuite
@@ -31,9 +32,10 @@ public class Suit {
 		caps.setCapability("unicodeKeyboard", "true");
 		caps.setCapability("resetKeyboard", "true");
 		URL u = new URL("http://127.0.0.1:4723/wd/hub/");
-		driver = new AndroidDriver<AndroidElement>(u, caps);
+		//driver = new AndroidDriver<AndroidElement>(u, caps);
+		driver=new AndroidDriverBase(u, caps);
 		TestNGListener.setDriver(driver);
-		ac=new Action(driver);
+		//ac=new Action(driver);
 		hpage=new HomePage();
 
 		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);

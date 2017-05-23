@@ -2,20 +2,20 @@
 <testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="13579" started-at="2017-05-17T04:51:10Z" finished-at="2017-05-17T04:51:23Z">
+  <suite name="Default suite" duration-ms="12919" started-at="2017-05-23T06:30:07Z" finished-at="2017-05-23T06:30:20Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="13579" started-at="2017-05-17T04:51:10Z" finished-at="2017-05-17T04:51:23Z">
+    <test name="Default test" duration-ms="12919" started-at="2017-05-23T06:30:07Z" finished-at="2017-05-23T06:30:20Z">
       <class name="test.SouHuNews">
-        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.SouHuNews@192b07fd]" name="beforeSuite" is-config="true" duration-ms="13618" started-at="2017-05-17T12:50:56Z" finished-at="2017-05-17T12:51:10Z">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:test.SouHuNews@5ae63ade]" name="beforeSuite" is-config="true" duration-ms="15923" started-at="2017-05-23T14:29:51Z" finished-at="2017-05-23T14:30:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- beforeSuite -->
-        <test-method status="PASS" signature="news()[pri:0, instance:test.SouHuNews@192b07fd]" name="news" duration-ms="13555" started-at="2017-05-17T12:51:10Z" description="新闻模块" finished-at="2017-05-17T12:51:23Z">
+        <test-method status="PASS" signature="news()[pri:0, instance:test.SouHuNews@5ae63ade]" name="news" duration-ms="12896" started-at="2017-05-23T14:30:07Z" description="新闻模块" finished-at="2017-05-23T14:30:20Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- news -->
-        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.SouHuNews@192b07fd]" name="afterSuite" is-config="true" duration-ms="2741" started-at="2017-05-17T12:51:24Z" finished-at="2017-05-17T12:51:26Z">
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:test.SouHuNews@5ae63ade]" name="afterSuite" is-config="true" duration-ms="2690" started-at="2017-05-23T14:30:20Z" finished-at="2017-05-23T14:30:23Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterSuite -->
